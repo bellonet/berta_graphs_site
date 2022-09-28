@@ -12,51 +12,61 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
-        <div class="d-flex" id="wrapper">
-            <!-- Sidebar-->
-            <div class="border-end bg-white" id="sidebar-wrapper">
-                <div class="sidebar-heading border-bottom bg-light">Berta Data</div>
-                <div class="list-group list-group-flush">
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="index.html">Summary</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="grade_summary.html">Grade Summary</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="individual_routes.html">Individual Routes</a>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Berta Data</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Summary</a></li>
+                        <li class="nav-item"><a class="nav-link" href="grade_summary.html">Grade Summary</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Individual Routes</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="backboard.html">Backboard</a></li><li><a class="dropdown-item" href="beach.html">Beach</a></li><li><a class="dropdown-item" href="brücke.html">Brücke</a></li><li><a class="dropdown-item" href="cavedraham.html">Cave Draham</a></li><li><a class="dropdown-item" href="competizione.html">Competizione</a></li><li><a class="dropdown-item" href="dickeberta.html">Dicke Berta</a></li><li><a class="dropdown-item" href="ekcürb.html">Ekcürb</a></li><li><a class="dropdown-item" href="enterprise.html">Enterprise</a></li><li><a class="dropdown-item" href="halfpipe.html">Halfpipe</a></li><li><a class="dropdown-item" href="hinkelstein.html">Hinkelstein</a></li><li><a class="dropdown-item" href="jumbolove.html">Jumbo Love</a></li><li><a class="dropdown-item" href="karma.html">Karma</a></li><li><a class="dropdown-item" href="mitra.html">Mitra</a></li><li><a class="dropdown-item" href="panorama.html">Panorama</a></li><li><a class="dropdown-item" href="paradies.html">Paradies</a></li><li><a class="dropdown-item" href="pingpong.html">Ping Pong</a></li><li><a class="dropdown-item" href="solarium.html">Solarium</a></li><li><a class="dropdown-item" href="spraywall.html">Spraywall</a></li><li><a class="dropdown-item" href="steuerboard.html">Steuerboard</a></li><li><a class="dropdown-item" href="submarino.html">Submarino</a></li><li><a class="dropdown-item" href="titanic.html">Titanic</a></li><li><a class="dropdown-item" href="toprope.html">Toprope</a></li><li><a class="dropdown-item" href="tornado.html">Tornado</a></li><li><a class="dropdown-item" href="tsunami.html">Tsunami</a></li><li><a class="dropdown-item" href="ufo.html">UFO</a></li><li><a class="dropdown-item" href="wave.html">Wave</a></li><li><a class="dropdown-item" href="werkstatt.html">Werkstatt</a></li><li><a class="dropdown-item" href="worldcup.html">Worldcup</a></li><li><a class="dropdown-item" href="runnjump.html">run 'n' jump</a></li><li><a class="dropdown-item" href="swingnjump.html">swing 'n' jump</a></li>
+                                <!-- <li><a class="dropdown-item" href="#">Action</a></li> -->
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <!-- Page content wrapper-->
-            <div id="page-content-wrapper">
-                <div class="container-fluid">
-                    <h1 class="mt-4">Berta route and send data</h1>
-                    <p>Made with Beta7 &hearts; data.</p> 
-                    <p>Last update: 23.09.22</p>
-                    <p>Includes only routes where #senders>10</p>
+        </nav>
+        <!-- Page content-->
+        <div class="container">
+            <div class="container-fluid">
+                <h1 class="mt-4">Berta route and send data - grade summary</h1>
+                <p>Made with Beta7 &hearts; data.</p> 
+                <p>Last update: filler_date</p>
+                <p>Includes only routes where #senders>10</p>
 
-                    <br/><br/>
-                    <div>
-                        <!--style="margin-left:auto;margin-right:auto;"-->
-                        filler_table_grade_height
-                    </div>
-                    <br/><br/>
-
-                    <div class="row">
-                      <div class="col-sm">filler_6A_summary</div>
-                      <div class="col-sm">filler_6A+_summary</div>
-                    </div>
-                    <div class="row">
-                      <div class="col-sm">filler_6B_summary</div>
-                      <div class="col-sm">filler_6B+_summary</div>
-                    </div>
-                    <div class="row">
-                      <div class="col-sm">filler_6C_summary</div>
-                      <div class="col-sm">filler_6C+_summary</div>
-                    </div>
-                    <div class="row">
-                      <div class="col-sm">filler_7A_summary</div>
-                      <div class="col-sm">"filler_7A+_summary</div>
-                    </div>    
-
-                    <br/><br/>
+                <br/><br/>
+                <div>
+                    <!--style="margin-left:auto;margin-right:auto;"-->
+                    filler_table_grade_height
                 </div>
+                <br/><br/>
+
+                <div class="row">
+                  <div class="col-sm">filler_6A_summary</div>
+                  <div class="col-sm">filler_6A+_summary</div>
+                </div>
+                <div class="row">
+                  <div class="col-sm">filler_6B_summary</div>
+                  <div class="col-sm">filler_6B+_summary</div>
+                </div>
+                <div class="row">
+                  <div class="col-sm">filler_6C_summary</div>
+                  <div class="col-sm">filler_6C+_summary</div>
+                </div>
+                <div class="row">
+                  <div class="col-sm">filler_7A_summary</div>
+                  <div class="col-sm">"filler_7A+_summary</div>
+                </div>    
+
+                <br/><br/>
             </div>
+
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
